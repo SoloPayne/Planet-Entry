@@ -1,1 +1,72 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+@import '../node_modules/angular-archwizard/styles/archwizard.css';
+
+
+:root {
+    --title-color: #36143A;
+    --footer-color: #110F0F;
+    --iconify-color: #2a2a2a;
+}
+
+
+body, html {
+    font-family: 'Sen', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4{
+    color: var(--title-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Sen', sans-serif;
+}
+
+.title{
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+color: var(--title-color)
+}
+
+footer{
+    background-color: var(--footer-color);
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+     min-height: 50px;
+}
+
+.active{
+    font-weight: 400;
+    color: var(--title-color)
+}
+
+.planet-display-card{
+    border: 2px solid #ddd;
+}
+.iconify{
+    color:var(--iconify-color);
+    fill:var(--iconify-color);
+    width: 50px;
+}
+
+.iconify> path{
+    color:var(--iconify-color);
+    fill:var(--iconify-color);
+}
+
+.form-section{
+ margin: 3rem 0 0 0;
+}

@@ -1,0 +1,227 @@
+form {
+    padding: 81px 0px;
+    padding-bottom: 103px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 42px;
+    column-gap: 3%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(150, 160, 170, 0.5);
+    position: relative;
+}
+
+form input {
+    height: 36px;
+    padding: 8px 10px;
+    background: #FEFEFE;
+    border: 0.890265px solid rgba(150, 160, 170, 0.5);
+    border-radius: 3.56106px;
+}
+
+form input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(100, 110, 120, 0.33);
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    position: relative;
+    width: 28%;
+}
+
+.input-wrapper:nth-child(4) img {
+    top: 50px;
+}
+
+.employment-type-card {
+    width: 248px;
+    height: 131px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 20px;
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    display: none;
+    z-index: 10;
+}
+
+.employment-type-card .show {
+    display: flex;
+}
+
+.employment-type-card p {
+    font-family: 'Poppins' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #646E78 !important;
+
+}
+
+.employment-type-card p:hover {
+    cursor: pointer;
+}
+
+
+.input-wrapper img {
+    position: absolute;
+    right: 10.5px;
+    top: 45.5px;
+}
+
+.input-wrapper img:hover {
+    cursor: pointer;
+}
+
+.input-wrapper p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E1E1E;
+}
+
+form .button-wrap {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 28%;
+    height: 60px;
+}
+
+form button {
+    width: 108px;
+    height: 36px;
+    background: #111324;
+    border-radius: 3.16842px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #E8F0FE;
+    display: flex;
+    column-gap: 6.26px;
+    align-items: center;
+    justify-content: center;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+@media(max-width: 1300px) {
+
+
+    .recommended-wrapper {
+        padding: 51px 50px;
+        column-gap: 5%;
+    }
+
+    .input-wrapper {
+        width: 31.3%;
+    }
+
+    form .button-wrap {
+        width: 31.3%;
+    }
+
+    .left-wrapper {
+        width: 30%;
+    }
+
+    .right-wrapper {
+        width: 65%;
+    }
+
+    .recommendations-card {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1000px) {
+    .recommended-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .left-wrapper {
+        position: static;
+        width: 100%;
+    }
+
+    .right-wrapper {
+        width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .input-wrapper {
+        width: 48%;
+    }
+
+    .button-wrap {
+        width: 48%;
+    }
+}
+
+@media(max-width: 750px) {
+
+
+    .recommended-wrapper {
+        padding: 51px 30px;
+    }
+}
+
+@media(max-width: 500px) {
+    form {
+        margin: 0px 20px;
+        padding-top: 40px;
+    }
+
+    form button {
+        width: 100%;
+    }
+
+    .recommended-wrapper {
+        padding: 51px 20px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    form .button-wrap {
+        width: 100%;
+    }
+
+    .button-wrap button {
+        width: 100%;
+    }
+
+    .recommendations-card {
+        padding: 27px 17px 18px 15px;
+        height: fit-content;
+    }
+
+    .recommendations-card .duration {
+        margin-top: 15px;
+    }
+
+    .recommendations-card .title {
+        flex-wrap: wrap;
+        row-gap: 5px;
+    }
+}
