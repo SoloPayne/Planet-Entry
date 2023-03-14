@@ -1,7 +1,7 @@
 <main class="site-main">
 
     <main class="container">
-        <aw-wizard [navBarLayout]="'null'" [defaultStepIndex]="0" [disableNavigationBar]="true">
+        <aw-wizard [navBarLayout]="'null'" [defaultStepIndex]="3" [disableNavigationBar]="true">
             <aw-wizard-step>
                 <app-my-planets-search></app-my-planets-search>
             </aw-wizard-step>
@@ -9,7 +9,11 @@
               <app-my-planet-details></app-my-planet-details>
             </aw-wizard-step>
             <aw-wizard-step>
+              <app-upload-planet-imagery></app-upload-planet-imagery>
             </aw-wizard-step>
+          <aw-wizard-step>
+            <app-planet-entry-preview></app-planet-entry-preview>
+          </aw-wizard-step>
         </aw-wizard>
     </main>
 </main>

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MyPlanetsSearchComponent } from './my-planets-search/my-planets-search.component';
-import {MyPlanetDetailsComponent} from "./my-planet-details/my-planet-details.component";
+import {MyPalnetsWizardComponent} from "./my-palnets-wizard/my-palnets-wizard.component";
 
 
-const routes: Routes = [{path: '', component: MyPlanetsSearchComponent  },
-  // {path: 'details', component: MyPlanetDetailsComponent  }
+const routes: Routes = [
+
+  {path: '', component: MyPalnetsWizardComponent },
 ];
 
 @NgModule({

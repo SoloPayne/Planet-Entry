@@ -1,13 +1,15 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
 
-import { IntranetRoutingModule } from './intranet-routing.module';
-import { MyPlanetsSearchComponent } from './my-planets-search/my-planets-search.component';
-import { SearchComponent } from './search/search.component';
-import { MyPalnetsWizardComponent } from './my-palnets-wizard/my-palnets-wizard.component';
-import { ArchwizardModule } from 'angular-archwizard';
-import { ActivityLogComponent } from './activity-log/activity-log.component';
-import { MyPlanetDetailsComponent } from './my-planet-details/my-planet-details.component'
+import {IntranetRoutingModule} from './intranet-routing.module';
+import {MyPlanetsSearchComponent} from './my-planets-search/my-planets-search.component';
+import {SearchComponent} from './search/search.component';
+import {MyPalnetsWizardComponent} from './my-palnets-wizard/my-palnets-wizard.component';
+import {ArchwizardModule} from 'angular-archwizard';
+import {ActivityLogComponent} from './activity-log/activity-log.component';
+import {MyPlanetDetailsComponent} from './my-planet-details/my-planet-details.component';
+import { UploadPlanetImageryComponent } from './upload-planet-imagery/upload-planet-imagery.component';
+import { PlanetEntryPreviewComponent } from './planet-entry-preview/planet-entry-preview.component'
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { MyPlanetDetailsComponent } from './my-planet-details/my-planet-details.
     SearchComponent,
     MyPalnetsWizardComponent,
     ActivityLogComponent,
-    MyPlanetDetailsComponent
+    MyPlanetDetailsComponent,
+    UploadPlanetImageryComponent,
+    PlanetEntryPreviewComponent
   ],
   imports: [
     CommonModule,
@@ -24,4 +28,5 @@ import { MyPlanetDetailsComponent } from './my-planet-details/my-planet-details.
     ArchwizardModule
   ]
 })
-export class IntranetModule { }
+export class IntranetModule {
+}
