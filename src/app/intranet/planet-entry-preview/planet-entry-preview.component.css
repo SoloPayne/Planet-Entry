@@ -1,0 +1,19 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p{
+    margin: 0;
+}
+
+.preview-card{
+  margin: 5rem 20rem;
+}
+
+@media screen and (max-width: 1200px){
+  .preview-card{
+    margin: 0;
+  }
+}
