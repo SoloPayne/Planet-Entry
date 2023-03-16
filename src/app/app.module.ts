@@ -10,6 +10,9 @@ import {IntranetModule} from "./intranet/intranet.module";
 import {CommonModule} from "@angular/common";
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +24,11 @@ import {CommonModule} from "@angular/common";
     CommonModule,
     BrowserModule,
     AppRoutingModule,
-    IntranetModule
+    IntranetModule,
+
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

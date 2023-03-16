@@ -17,3 +17,10 @@ p{
     margin: 0;
   }
 }
+
+.images .card{
+  border: 0;
+  box-shadow: 2px 2px 2px #dddddd50;
+  background-color: #EDF6FC;
+  padding: .5rem;
+}

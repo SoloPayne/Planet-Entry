@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 @import '../node_modules/angular-archwizard/styles/archwizard.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 
 :root {
@@ -50,13 +51,21 @@ footer{
 }
 
 .active{
-    font-weight: 400;
+    font-weight: 700;
     color: var(--title-color)
 }
 
 .planet-display-card{
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
 }
+.planet{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
 .iconify{
     color:var(--iconify-color);
     fill:var(--iconify-color);
@@ -71,3 +80,4 @@ footer{
 .form-section{
  margin: 3rem 0 0 0;
 }
+
