@@ -9,7 +9,8 @@ import {ArchwizardModule} from 'angular-archwizard';
 import {ActivityLogComponent} from './activity-log/activity-log.component';
 import {MyPlanetDetailsComponent} from './my-planet-details/my-planet-details.component';
 import { UploadPlanetImageryComponent } from './upload-planet-imagery/upload-planet-imagery.component';
-import { PlanetEntryPreviewComponent } from './planet-entry-preview/planet-entry-preview.component'
+import { PlanetEntryPreviewComponent } from './planet-entry-preview/planet-entry-preview.component';
+import { PlanetDescriptionComponent } from './planet-description/planet-description.component'
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PlanetEntryPreviewComponent } from './planet-entry-preview/planet-entry
     ActivityLogComponent,
     MyPlanetDetailsComponent,
     UploadPlanetImageryComponent,
-    PlanetEntryPreviewComponent
+    PlanetEntryPreviewComponent,
+    PlanetDescriptionComponent
   ],
   imports: [
     CommonModule,

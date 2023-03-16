@@ -65,6 +65,12 @@ footer{
     object-fit: cover;
 
 }
+.p-display{
+    object-fit:cover ;
+    padding: .5rem;
+    height: 200px;
+}
+
 
 .iconify{
     color:var(--iconify-color);
